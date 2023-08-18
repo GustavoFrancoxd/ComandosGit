@@ -1,0 +1,33 @@
+git --help
+git --version
+git config --global user.email "gustavofrancoxd@gmail.com"
+git config --global user.name "Gustavo Franco Lizarraga"
+git config --list
+
+git init                   								//inicializar proyecto git
+git init --initial-branch=main								//otro ejemplo de git init y nombrar branch principal
+git status										//esto te permite ver que archivos han tenido cambios y ver su estatus
+init add                   								//añadir archivo al proyecto git o agregar cambios
+git commit		   								//hacer commit para guardar cambios
+git commit -m 										//es mas rapido ya que asi no nos abre la terminal
+
+git diff video3/variablesp2.php   							//ver cambios realizados en un archivo (presionar "q" para salir)
+
+/***crear un archivo sin nombre con extension .gitignore 
+si deseas que no aparezcan no se tomen en cuenta en git***/
+
+git log											//esto muestra todos los commits realizados
+
+git branch										//muestra todos los los proyecyos alternativos
+git branch ejemplo									//asi se crean los nuevos branch
+
+/***al crear un nuevo branch partes del proyecto que ya tienes
+y creas una nueva rama del proyecto separada de la rama principal,
+puede usarse para testear nuevo codigo***/
+
+git checkout ejemplo									//cambiar al branch ejemplo
+
+git remote add origin https://github.com/GustavoFrancoxd/sintaxis_basica_php.git  	//de esta forma se conecta con github
+
+git push -u origin master 								//de esta forma se sube a gitbut
+
