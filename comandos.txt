@@ -31,4 +31,4 @@ git remote add origin https://github.com/GustavoFrancoxd/sintaxis_basica_php.git
 
 git push -u origin master 								//de esta forma se sube a gitbut
 
-git clone https://github.com/GustavoFrancoxd/ComandosGit.git  //este comando
+git clone https://github.com/GustavoFrancoxd/ComandosGit.git  //este comando crea una copia en nuestra computadora en caso de haber sido borrada desde github
